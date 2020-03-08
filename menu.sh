@@ -33,7 +33,7 @@ declare -A cont_array=(
 )
 declare -a armhf_keys=("portainer" "nodered" "influxdb" "grafana" "mosquitto" "telegraf" "mariadb" "postgres"
   "adminer" "openhab" "zigbee2mqtt" "pihole" "plex" "tasmoadmin" "rtl_433" "espruinohub"
-  "motioneye" "webthings_gateway" "blynk_server" "nextcloud" "diyhue" "homebridge" "python", "unbound")
+  "motioneye" "webthings_gateway" "blynk_server" "nextcloud" "diyhue" "homebridge" "python" "unbound")
 
 sys_arch=$(uname -m)
 
